@@ -1,3 +1,11 @@
+## Member
+
+### Group 1:
+
+- Ruly Bija (1301224171)
+- Ananda Arti Widigdo (1301224386)
+- Devin Prawira Arissaputra (1301224478)
+
 ## Sentence structures
 
 - S – P – O – K (Subject – Predicate – Object – Adverb)
@@ -58,6 +66,7 @@
 ```
 
 ## Parse Table
+
 | Non-terminal | Ana    | Ani    | Anu    | Ane    | Ano    | membeli                                | membayar                               | membuang                               | membakar                               | membaca                                | sampah   | samsir   | sampan   | samsak   | sampul   | di pasar   | di TPA   | di warteg   | di warung   | di plaza   | EOS   |
 | ------------ | ------ | ------ | ------ | ------ | ------ | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------- | -------- | -------- | -------- | -------- | ---------- | -------- | ----------- | ----------- | ---------- | ----- |
 | `<S>`        | `<SU>` | `<SU>` | `<SU>` | `<SU>` | `<SU>` | `<PP>`                                 | `<PP>`                                 | `<PP>`                                 | `<PP>`                                 | `<PP>`                                 |          |          |          |          |          |            |          |             |             |            | error |
@@ -66,7 +75,9 @@
 | `<P>`        |        |        |        |        |        | "membeli"                              | "membayar"                             | "membuang"                             | "membakar"                             | "membaca"                              |          |          |          |          |          |            |          |             |             |            | error |
 | `<O>`        |        |        |        |        |        |                                        |                                        |                                        |                                        |                                        | "sampah" | "samsir" | "sampan" | "samsak" | "sampul" |            |          |             |             |            | error |
 | `<K>`        |        |        |        |        |        |                                        |                                        |                                        |                                        |                                        |          |          |          |          |          | "di pasar" | "di TPA" | "di warteg" | "di warung" | "di plaza" | error |
+
 ## Output
+
 Valid example:
 ![image](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/f59e6a73-03ae-4962-aa21-772fbec912f2)
 
