@@ -1,6 +1,6 @@
 ## Member
 
-### Group 1:
+### IF-46-INT Group 1:
 
 - Ruly Bija (1301224171)
 - Ananda Arti Widigdo (1301224386)
