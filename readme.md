@@ -58,8 +58,6 @@
 ```
 
 ## Parse Table
-<<<<<<< HEAD
-
 | Non-terminal | Ana    | Ani    | Anu    | Ane    | Ano    | membeli                                | membayar                               | membuang                               | membakar                               | membaca                                | sampah   | samsir   | sampan   | samsak   | sampul   | di pasar   | di TPA   | di warteg   | di warung   | di plaza   | EOS   |
 | ------------ | ------ | ------ | ------ | ------ | ------ | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------------------------------------- | -------- | -------- | -------- | -------- | -------- | ---------- | -------- | ----------- | ----------- | ---------- | ----- |
 | `<S>`        | `<SU>` | `<SU>` | `<SU>` | `<SU>` | `<SU>` | `<PP>`                                 | `<PP>`                                 | `<PP>`                                 | `<PP>`                                 | `<PP>`                                 |          |          |          |          |          |            |          |             |             |            | error |
@@ -70,10 +68,10 @@
 | `<K>`        |        |        |        |        |        |                                        |                                        |                                        |                                        |                                        |          |          |          |          |          | "di pasar" | "di TPA" | "di warteg" | "di warung" | "di plaza" | error |
 ## Output
 Valid example:
-![image](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/ba5438dc-f3dd-41d4-a97a-a5ec6881d3a9)
+![image](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/f59e6a73-03ae-4962-aa21-772fbec912f2)
 
 Invalid example:
-![image](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/1273bf82-1486-4a45-910a-61c7e5ddc243)
+![image](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/061c082a-c393-42f5-bbd8-9b72be1fc835)
 
 ## Reference
 [Presentasi Tubes TBA | Kelompok KAK | TelkomUniversity | IF-45-11](https://www.youtube.com/watch?v=KoPYcwvR-vI&t=147s)
