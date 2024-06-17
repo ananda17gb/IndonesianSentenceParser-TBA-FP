@@ -74,4 +74,4 @@ Invalid example:
 ![image](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/061c082a-c393-42f5-bbd8-9b72be1fc835)
 
 ## Reference
-[Presentasi Tubes TBA | Kelompok KAK | TelkomUniversity | IF-45-11](https://www.youtube.com/watch?v=KoPYcwvR-vI&t=147s)
+[Presentasi Tubes TBA | Kelompok KAK | TelkomUniversity | IF-45-11](https://www.youtube.com/watch?v=KoPYcwvR-vI)
