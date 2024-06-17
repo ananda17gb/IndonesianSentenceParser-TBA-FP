@@ -23,28 +23,23 @@
 ## Finite Automata
 
 ### Subject:
-
-![s](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/0eb236ad-59cd-4a97-8117-aed44278bae5)
+![s](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/22656dcb-8e76-410e-a4c3-fab1d94e5f8d)
 
 ### Predicate:
-
-![p](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/e02388ff-92d2-4b0e-bb48-52893611aabb)
+![p](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/2d2ea7de-54bb-4137-bb82-db3595201f2d)
 
 ### Object:
-
-![o](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/76916319-426c-4cdb-8f86-97ac4aa264b0)
+![o](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/1dc1c29d-6e15-4df9-bd0b-a706b69447ff)
 
 ### Adverb:
+![k](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/8ed73901-1c85-4881-b7c3-1beab725a3e0)
 
-![k](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/77922660-b829-4bd4-8415-8023d703e856)
 
 ### Full FA with word as the terminal symbol:
-
-![spok_word](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/892beea2-2f8d-4b64-bd13-b8316bb1d0f7)
+![spok_word](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/ff59785b-c8e5-492d-9e2c-de5d92e5fea9)
 
 ### Full FA with character as the terminal symbol:
-
-![spok_char](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/f6e76046-2c64-4071-9806-b98b120ed473)
+![spok_char](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/3498bf2c-d022-4efa-af08-43bc5e890d0c)
 
 ## CFG
 
