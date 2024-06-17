@@ -13,7 +13,6 @@
 - K: {"di pasar", "di TPA", "di warteg", "di warung", "di plaza"}
 
 ## Finite Automata
-<<<<<<< HEAD
 
 ### Subject:
 
@@ -39,23 +38,6 @@
 
 ![spok_char](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/f6e76046-2c64-4071-9806-b98b120ed473)
 
-=======
-### Subject:
-![s](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/0eb236ad-59cd-4a97-8117-aed44278bae5)
-### Predicate:
-![p](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/e02388ff-92d2-4b0e-bb48-52893611aabb)
-### Object:
-![o](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/76916319-426c-4cdb-8f86-97ac4aa264b0)
-### Adverb:
-![k](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/77922660-b829-4bd4-8415-8023d703e856)
-### Full FA with word as the terminal symbol:
-![spok_word](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/892beea2-2f8d-4b64-bd13-b8316bb1d0f7)
-### Full FA with character as the terminal symbol:
-![spok_char](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/f6e76046-2c64-4071-9806-b98b120ed473)
-
-
-
->>>>>>> a87129e44fde647b2709bb7337f4c1c41f2e1d68
 ## CFG
 
 ```
@@ -85,22 +67,8 @@
 | `<PP>`       |        |        |        |        |        | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` |          |          |          |          |          |            |          |             |             |            | error |
 | `<P>`        |        |        |        |        |        | "membeli"                              | "membayar"                             | "membuang"                             | "membakar"                             | "membaca"                              |          |          |          |          |          |            |          |             |             |            | error |
 | `<O>`        |        |        |        |        |        |                                        |                                        |                                        |                                        |                                        | "sampah" | "samsir" | "sampan" | "samsak" | "sampul" |            |          |             |             |            | error |
-| `<I>`        |        |        |        |        |        |                                        |                                        |                                        |                                        |                                        |          |          |          |          |          | "di pasar" | "di TPA" | "di warteg" | "di warung" | "di plaza" | error |
-
+| `<K>`        |        |        |        |        |        |                                        |                                        |                                        |                                        |                                        |          |          |          |          |          | "di pasar" | "di TPA" | "di warteg" | "di warung" | "di plaza" | error |
 ## Output
-
-=======
-| Non-terminal | Ana  | Ani  | Anu  | Ane  | Ano  | membeli | membayar | membuang | membakar | membaca | sampah | samsir | sampan | samsak | sampul | di pasar | di TPA | di warteg | di warung | di plaza | EOS  |
-|--------------|------|------|------|------|------|---------|----------|----------|----------|---------|--------|--------|--------|--------|--------|----------|--------|-----------|-----------|----------|------|
-| `<S>`        | `<SU>` | `<SU>` | `<SU>` | `<SU>` | `<SU>` | `<PP>`   | `<PP>`   | `<PP>`   | `<PP>`   | `<PP>` |        |        |        |        |        |          |        |           |           |          | error |
-| `<SU>`       | "Ana" | "Ani" | "Anu" | "Ane" | "Ano" |         |          |          |          |         |        |        |        |        |        |          |        |           |           |          | error |
-| `<PP>`       |      |      |      |      |      | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` | `<P>`, `<P><O>`, `<P><K>`, `<P><O><K>` |        |        |        |        |        |          |        |           |           |          | error |
-| `<P>`        |      |      |      |      |      | "membeli" | "membayar" | "membuang" | "membakar" | "membaca" |        |        |        |        |        |          |        |           |           |          | error |
-| `<O>`        |      |      |      |      |      |         |          |          |          |         | "sampah" | "samsir" | "sampan" | "samsak" | "sampul" |        |        |           |           |          | error |
-| `<I>`        |      |      |      |      |      |         |          |          |          |         |        |        |        |        |        | "di pasar" | "di TPA" | "di warteg" | "di warung" | "di plaza" | error |
-
-## Output
->>>>>>> a87129e44fde647b2709bb7337f4c1c41f2e1d68
 Valid example:
 ![image](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/ba5438dc-f3dd-41d4-a97a-a5ec6881d3a9)
 
@@ -108,8 +76,4 @@ Invalid example:
 ![image](https://github.com/ananda17gb/IndonesianSentenceParser_G1_FP_TBA_IF-46-INT/assets/79387612/1273bf82-1486-4a45-910a-61c7e5ddc243)
 
 ## Reference
-<<<<<<< HEAD
-
-=======
->>>>>>> a87129e44fde647b2709bb7337f4c1c41f2e1d68
 [Presentasi Tubes TBA | Kelompok KAK | TelkomUniversity | IF-45-11](https://www.youtube.com/watch?v=KoPYcwvR-vI&t=147s)
