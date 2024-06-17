@@ -88,7 +88,7 @@ class TOKEN_RECOGNIZER:
         subjects = ["1", "2", "3", "4", "5"]
         predicates = ["6", "7", "8", "9", "10"]
         objects = ["11", "12", "13", "14", "15"]
-        informations = ["16", "17", "18", "19", "20"]
+        adverbs = ["16", "17", "18", "19", "20"]
 
         structure = " => "
 
@@ -100,7 +100,7 @@ class TOKEN_RECOGNIZER:
                     structure += "P "
                 elif token in objects:
                     structure += "O "
-                elif token in informations:
+                elif token in adverbs:
                     structure += "K "
 
 

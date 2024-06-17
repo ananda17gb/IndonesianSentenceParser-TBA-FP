@@ -30,7 +30,7 @@ class PARSER:
         subjects = ["1", "2", "3", "4", "5"]
         predicates = ["6", "7", "8", "9", "10"]
         objects = ["11", "12", "13", "14", "15"]
-        informations = ["16", "17", "18", "19", "20"]
+        adverbs = ["16", "17", "18", "19", "20"]
 
         idx = 0
         sym = tokens[idx]
@@ -53,7 +53,7 @@ class PARSER:
                 if sym in predicates:
                     next_sym = tokens[idx + 1] if idx + 1 < len(tokens) else None
                     next_sym_2 = tokens[idx + 2] if idx + 2 < len(tokens) else None
-                    if next_sym in objects and next_sym_2 in informations:
+                    if next_sym in objects and next_sym_2 in adverbs:
                         self.pop()  
                         self.push("K")  
                         self.push("O")  
@@ -62,7 +62,7 @@ class PARSER:
                         self.pop()  
                         self.push("O")  
                         self.push("P")  
-                    elif next_sym in informations:
+                    elif next_sym in adverbs:
                         self.pop()  
                         self.push("K")  
                         self.push("P") 
@@ -85,7 +85,7 @@ class PARSER:
                 else:
                     return False
             elif top == "K":
-                if sym in informations:
+                if sym in adverbs:
                     self.pop()
                     self.push(sym)
                 else:
