@@ -70,7 +70,7 @@ class TOKEN_RECOGNIZER:
     def get_tokens(self, s):
         result_token = []
         words = s.split()
-        
+
         i = 0
         while i < len(words):
             if words[i] == "di" and i + 1 < len(words):

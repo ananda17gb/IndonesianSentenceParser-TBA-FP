@@ -39,7 +39,7 @@ class ANA:
         }
 
     def valid(self, word):
-        word += "#"  # Add EOS marker
+        word += "#"
         state = "q1"
 
         for char in word:
