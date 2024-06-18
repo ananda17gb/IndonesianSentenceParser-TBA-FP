@@ -35,6 +35,8 @@ class PARSER:
         idx = 0
         sym = tokens[idx]
 
+        # ["Ana", "membaca", "sampul", "di plaza"]
+
         while top != "@":
             if top == "S":
                 if sym in subjects:
@@ -106,5 +108,5 @@ class PARSER:
                 if sym != "#":
                     return False
                 else:
-                    state = "f"
+                    state = "Finished"
         return state

@@ -67,9 +67,11 @@ class TOKEN_RECOGNIZER:
         else:
             return False
 
-    def get_tokens(self, s):
+    def get_tokens(self, sentence):
         result_token = []
-        words = s.split()
+        words = sentence.split()
+
+        # ["Ana", "membaca", "sampul", "di", "plaza"]
 
         i = 0
         while i < len(words):
@@ -80,6 +82,8 @@ class TOKEN_RECOGNIZER:
                 word = words[i]
                 i += 1
             result_token.append(self.get_lexical(word))
+
+        # ["Ana", "membaca", "sampul", "di plaza"]
 
         result_token.append("#")
         return result_token
@@ -102,6 +106,5 @@ class TOKEN_RECOGNIZER:
                     structure += "O "
                 elif token in adverbs:
                     structure += "K "
-
 
         return structure
