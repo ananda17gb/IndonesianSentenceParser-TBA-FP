@@ -23,28 +23,33 @@
 ## Finite Automata
 
 ### Subject:
+
 ![s](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/22656dcb-8e76-410e-a4c3-fab1d94e5f8d)
 
 ### Predicate:
+
 ![p](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/2d2ea7de-54bb-4137-bb82-db3595201f2d)
 
 ### Object:
+
 ![o](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/1dc1c29d-6e15-4df9-bd0b-a706b69447ff)
 
 ### Adverb:
+
 ![k](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/8ed73901-1c85-4881-b7c3-1beab725a3e0)
 
-
 ### Full FA with word as the terminal symbol:
+
 ![spok_word](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/ff59785b-c8e5-492d-9e2c-de5d92e5fea9)
 
 ### Full FA with character as the terminal symbol:
+
 ![spok_char](https://github.com/ananda17gb/IndonesianSentenceParser-TBA-FP/assets/79387612/3498bf2c-d022-4efa-af08-43bc5e890d0c)
 
 ## CFG
 
 ```
-<sentence> ::= <subject> | <predicate_phrases>
+<sentence> ::= <subject> <predicate_phrases>
 
 <subject> ::= "Ana" | "Ani" | "Anu" | "Ane" | "Ano"
 
