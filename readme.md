@@ -2,7 +2,7 @@
 
 ### IF-46-INT Group 1:
 
-- Ruly Bija (1301224171)
+- Ruly Bija (1301224196)
 - Ananda Arti Widigdo (1301224386)
 - Devin Prawira Arissaputra (1301224478)
 
